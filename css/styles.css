@@ -3,9 +3,14 @@
 	box-sizing:border-box;
 }
 
-@keyframes fade-in {
+/* Animation for fading in the headings */
+@keyframes heading-fade-in {
 	from {opacity: 0.0; transform:translate(0px, -30px);}
 	to {opacity: 1.0; transform:translate(0px ,0px);}
+}
+
+body {
+	background: black;
 }
 
 /* This div will hold the main content and the heading divs */
@@ -28,36 +33,42 @@ div#heading {
 	top: 0;
 	/* Match container's width */
 	width: 100%;
-	/* Fill some of the container and leave rest of room for the content */
-	height: 10%;
+	/* Fixed height */
+	height: 35px;
+	/* Show an ellipsis if text overflows */
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+	/* Set styles for text */
+	font-style: verdana;
+	color: #D6D6D6; /* off-white */
+
 }
 
 /* Holds the main page content (will be a child of the container div) */
 div#content {
 	position: absolute;
+	/* Move this div to the bottom of the container */
 	bottom: 0;
+	/* Provide some space between this div and the heading (above) */
+	top: 35px;
 	/* Match container's width */
 	width: 100%;
 	/* Fill most of the container and leave room for the heading */
 	height: 90%;
-	background-color: black;
+	background-color: white;
 	border-radius: 10px;
 	opacity: 0.4;
 }
 
 /* Main heading (name) */
 div#heading h1 {
-	font-style: verdana;
 	display: inline;
 	margin: 0;
 }
 
 /* Secondary heading (title) */
 div#heading  h2 {
-	font-style: verdana;
 	display: inline;
 	margin-left: 10px;
 }

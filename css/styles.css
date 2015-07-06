@@ -1,0 +1,63 @@
+/* Use box-sizing to account for padding and borders */
+* {
+	box-sizing:border-box;
+}
+
+@keyframes fade-in {
+	from {opacity: 0.0; transform:translate(0px, -30px);}
+	to {opacity: 1.0; transform:translate(0px ,0px);}
+}
+
+/* This div will hold the main content and the heading divs */
+div#container {
+	/* Center horizontally and vertically */
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	/* Dynamically resize this div */
+	width: 60%;
+	height: 50%;
+}
+
+/* Holds the heading (will be a child of the container div) */
+div#heading {
+	position: absolute;
+	top: 0;
+	/* Match container's width */
+	width: 100%;
+	/* Fill some of the container and leave rest of room for the content */
+	height: 10%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* Holds the main page content (will be a child of the container div) */
+div#content {
+	position: absolute;
+	bottom: 0;
+	/* Match container's width */
+	width: 100%;
+	/* Fill most of the container and leave room for the heading */
+	height: 90%;
+	background-color: black;
+	border-radius: 10px;
+	opacity: 0.4;
+}
+
+/* Main heading (name) */
+div#heading h1 {
+	font-style: verdana;
+	display: inline;
+	margin: 0;
+}
+
+/* Secondary heading (title) */
+div#heading  h2 {
+	font-style: verdana;
+	display: inline;
+	margin-left: 10px;
+}

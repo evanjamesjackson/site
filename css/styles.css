@@ -74,5 +74,49 @@ div#content {
 	height: 90%;
 	background-color: white;
 	border-radius: 10px;
-	opacity: 0.4;
+	opacity: 0.6;
 }
+
+div#content img {
+	float: left;
+	margin: 30px;
+	width: 200px;
+	height: 200px;
+}
+
+img#github {
+	background: url("../images/logos/github_grayscale.png");
+}
+
+img#github:hover {
+	background: url("../images/logos/github.png");
+}
+
+img#bitbucket {
+	background: url("../images/logos/bitbucket_grayscale.png");
+}
+
+img#bitbucket:hover {
+	background: url("../images/logos/bitbucket.png");
+}
+
+img#linkedin {
+	background: url("../images/logos/linkedin_grayscale.png");
+}
+
+img#linkedin:hover {
+	background: url("../images/logos/linkedin.png");
+}
+
+img#google_plus {
+	background: url("../images/logos/google_plus_grayscale.png");
+}
+
+img#google_plus:hover {
+	background: url("../images/logos/google_plus.png");
+}
+
+/*Note for later: I think what might work is make the images semi-transparent while in grayscale, then fully opaque when highlighted */
+/*Need to resize images (maybe 100x100?) */
+/*Don't forget an email link and a link to resume */
+/*Maybe make an image sprite when all images are done */

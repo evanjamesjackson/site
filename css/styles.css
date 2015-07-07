@@ -9,6 +9,12 @@
 	to {opacity: 1.0; transform:translate(0px ,0px);}
 }
 
+/* Animation for fading in images */
+@keyframes image-fade-in {
+	from {opacity: 0.0; transform:translate(0, 10px);}
+	to {opacity: 1.0; transform:translate(0px, 0px);}
+}
+
 body {
 	background-image: url("../images/background.png");
 	background-repeat: repeat;
@@ -82,6 +88,8 @@ div#content img {
 	margin: 30px;
 	width: 200px;
 	height: 200px;
+	animation-name: image-fade-in;
+	animation-duration: 1s;
 }
 
 img#github {

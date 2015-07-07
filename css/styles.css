@@ -78,16 +78,16 @@ div#content {
 	width: 100%;
 	/* Fill most of the container and leave room for the heading */
 	height: 90%;
-	background-color: white;
+	background-color: black;
 	border-radius: 10px;
-	opacity: 0.6;
+	opacity: 0.7;
 }
 
 div#content img {
 	float: left;
 	margin: 30px;
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	animation-name: image-fade-in;
 	animation-duration: 1s;
 }
@@ -122,6 +122,14 @@ img#google_plus {
 
 img#google_plus:hover {
 	background: url("../images/logos/google_plus.png");
+}
+
+img#mail {
+	background: url("../images/logos/mail_grayscale.png");
+}
+
+img#mail:hover {
+	background: url("../images/logos/mail.png")
 }
 
 /*Note for later: I think what might work is make the images semi-transparent while in grayscale, then fully opaque when highlighted */

@@ -96,7 +96,7 @@ img#github {
 	background: url("../images/logos/github_grayscale.png");
 }
 
-img#github:hover {
+img#github:hover, img#github:active {
 	background: url("../images/logos/github.png");
 }
 
@@ -104,7 +104,7 @@ img#bitbucket {
 	background: url("../images/logos/bitbucket_grayscale.png");
 }
 
-img#bitbucket:hover {
+img#bitbucket:hover, img#bitbucket:active {
 	background: url("../images/logos/bitbucket.png");
 }
 
@@ -112,7 +112,7 @@ img#linkedin {
 	background: url("../images/logos/linkedin_grayscale.png");
 }
 
-img#linkedin:hover {
+img#linkedin:hover, img#linkedin:active {
 	background: url("../images/logos/linkedin.png");
 }
 
@@ -120,7 +120,7 @@ img#google_plus {
 	background: url("../images/logos/google_plus_grayscale.png");
 }
 
-img#google_plus:hover {
+img#google_plus:hover, img#google_plus:active {
 	background: url("../images/logos/google_plus.png");
 }
 
@@ -128,7 +128,7 @@ img#mail {
 	background: url("../images/logos/mail_grayscale.png");
 }
 
-img#mail:hover {
+img#mail:hover, img#mail:active {
 	background: url("../images/logos/mail.png")
 }
 
@@ -136,7 +136,7 @@ img#games {
 	background: url("../images/logos/joystick_grayscale.png")
 }
 
-img#games:hover {
+img#games:hover, img#games:active {
 	background: url("../images/logos/joystick.png")
 }
 

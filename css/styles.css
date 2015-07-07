@@ -10,7 +10,8 @@
 }
 
 body {
-	background: black;
+	background-image: url("../images/background.png");
+	background-repeat: repeat;
 }
 
 /* This div will hold the main content and the heading divs */

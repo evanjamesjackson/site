@@ -5,7 +5,7 @@
 
 /* Animation for fading in the headings */
 @keyframes heading-fade-in {
-	from {opacity: 0.0; transform:translate(0px, -30px);}
+	from {opacity: 0.0; transform:translate(0px, -10px);}
 	to {opacity: 1.0; transform:translate(0px ,0px);}
 }
 
@@ -39,10 +39,25 @@ div#heading {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	/* Set styles for text */
+	/* Set style for text */
 	font-style: verdana;
 	color: #D6D6D6; /* off-white */
+}
 
+/* Main heading (name) */
+div#heading h1 {
+	animation-name: heading-fade-in;
+	animation-duration: 1s;
+	display: inline;
+	margin: 0;
+}
+
+/* Secondary heading (title) */
+div#heading h2 {
+	animation-name: heading-fade-in;
+	animation-duration: 1s;
+	display: inline;
+	margin-left: 10px;
 }
 
 /* Holds the main page content (will be a child of the container div) */
@@ -59,16 +74,4 @@ div#content {
 	background-color: white;
 	border-radius: 10px;
 	opacity: 0.4;
-}
-
-/* Main heading (name) */
-div#heading h1 {
-	display: inline;
-	margin: 0;
-}
-
-/* Secondary heading (title) */
-div#heading  h2 {
-	display: inline;
-	margin-left: 10px;
 }

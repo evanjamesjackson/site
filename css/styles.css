@@ -15,6 +15,10 @@
 	to {opacity: 1.0; transform:translate(0px, 0px);}
 }
 
+html, body {
+	height: 100%;
+}
+
 body {
 	background-image: url("../images/background.png");
 	background-repeat: repeat;
@@ -52,19 +56,49 @@ div#heading h2 {
 	margin-left: 10px;
 }
 
+/* Hide the heading div when the screen is below 600px wide */
+@media only screen and (max-width: 600px) {
+	div#heading {
+		display: none;
+	}
+}
+
+/* Default: display as 2 rows of 3 images */
+div#content {
+	width: 690px;
+	height: 480px;
+	margin: -240px 0 0 -345px;
+}
+
+/* When screen is below 600px wide: display as 3 rows of 2 images */
+@media only screen and (max-width: 600px) {
+	div#content {
+		width: 480px;
+		height: 690px;
+		margin: -310px 0 0 -240px;
+	} 
+}
+
+/* When screen is below 390px wide: display as 6 rows of 1 image */
+@media only screen and (max-width: 390px) {
+	div#content {
+		width: 270px;
+		height: 1320px;
+		margin: -300px 0 0 -135px;
+	}
+}
+
 /* Holds the main page content (links) */
 div#content {
 	/* Center vertically and horizontally */
 	position: absolute;
-	width: 690px;
-	height: 480px;
 	left: 50%;
 	top: 50%;
-	margin: -240px 0 0 -345px;
 	padding: 30px;
 	background-color: black;
 	border-radius: 10px;
 	opacity: 0.7;
+	overflow: auto;
 }
 
 /* Image links in the content div */
@@ -125,7 +159,5 @@ img#games:hover, img#games:active {
 	background: url("../images/logos/joystick.png")
 }
 
-/*Note for later: I think what might work is make the images semi-transparent while in grayscale, then fully opaque when highlighted */
-/*Need to resize images (maybe 100x100?) */
 /*Don't forget an email link and a link to resume */
 /*Maybe make an image sprite when all images are done */

@@ -35,13 +35,13 @@ div#heading {
 	/* Match container's width */
 	width: 100%;
 	/* Fixed height */
-	height: 35px;
+	height: 40px;
 	/* Show an ellipsis if text overflows */
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	/* Set style for text */
-	font-style: verdana;
+	font-family: "Arial Black", Gadget, sans-serif;
 	color: #D6D6D6; /* off-white */
 }
 
@@ -67,7 +67,7 @@ div#content {
 	/* Move this div to the bottom of the container */
 	bottom: 0;
 	/* Provide some space between this div and the heading (above) */
-	top: 35px;
+	top: 40px;
 	/* Match container's width */
 	width: 100%;
 	/* Fill most of the container and leave room for the heading */

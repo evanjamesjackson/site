@@ -20,28 +20,13 @@ body {
 	background-repeat: repeat;
 }
 
-/* This div will hold the main content and the heading divs */
-div#container {
-	/* Center horizontally and vertically */
-	position: absolute;
-	margin: auto;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	/* Dynamically resize this div */
-	width: 60%;
-	height: 50%;
-}
-
-/* Holds the heading (will be a child of the container div) */
+/* Holds the headings */
 div#heading {
+	/* Center div horizontally and place above content div */
 	position: absolute;
-	top: 0;
-	/* Match container's width */
-	width: 100%;
-	/* Fixed height */
-	height: 40px;
+	left: 50%;
+	top: 50%;
+	margin: -280px 0 0 -345px;
 	/* Show an ellipsis if text overflows */
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -67,22 +52,22 @@ div#heading h2 {
 	margin-left: 10px;
 }
 
-/* Holds the main page content (will be a child of the container div) */
+/* Holds the main page content (links) */
 div#content {
+	/* Center vertically and horizontally */
 	position: absolute;
-	/* Move this div to the bottom of the container */
-	bottom: 0;
-	/* Provide some space between this div and the heading (above) */
-	top: 40px;
-	/* Match container's width */
-	width: 100%;
-	/* Fill most of the container and leave room for the heading */
-	height: 90%;
+	width: 690px;
+	height: 480px;
+	left: 50%;
+	top: 50%;
+	margin: -240px 0 0 -345px;
+	padding: 30px;
 	background-color: black;
 	border-radius: 10px;
 	opacity: 0.7;
 }
 
+/* Image links in the content div */
 div#content img {
 	float: left;
 	margin: 30px;

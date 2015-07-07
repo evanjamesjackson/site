@@ -132,6 +132,14 @@ img#mail:hover {
 	background: url("../images/logos/mail.png")
 }
 
+img#games {
+	background: url("../images/logos/joystick_grayscale.png")
+}
+
+img#games:hover {
+	background: url("../images/logos/joystick.png")
+}
+
 /*Note for later: I think what might work is make the images semi-transparent while in grayscale, then fully opaque when highlighted */
 /*Need to resize images (maybe 100x100?) */
 /*Don't forget an email link and a link to resume */

@@ -15,10 +15,6 @@
 	to {opacity: 1.0; transform:translate(0px, 0px);}
 }
 
-html, body {
-	height: 100%;
-}
-
 body {
 	background-image: url("../images/background.png");
 	background-repeat: repeat;

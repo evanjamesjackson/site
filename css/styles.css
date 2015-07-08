@@ -30,13 +30,13 @@ div#heading {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	margin: -280px 0 0 -345px;
+	margin: -285px 0 0 -345px;
 	/* Show an ellipsis if text overflows */
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	/* Set style for text */
-	font-family: "Arial Black", Gadget, sans-serif;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	color: #D6D6D6; /* off-white */
 }
 

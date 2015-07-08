@@ -102,60 +102,61 @@ div#content {
 }
 
 /* Image links in the content div */
-div#content img {
+div#content a {
 	float: left;
 	margin: 30px;
 	width: 150px;
 	height: 150px;
 	animation-name: image-fade-in;
 	animation-duration: 1s;
+	border-style: none;
 }
 
-img#github {
+a#github {
 	background: url("../images/logos/github_grayscale.png");
 }
 
-img#github:hover, img#github:active {
+a#github:hover, a#github:active {
 	background: url("../images/logos/github.png");
 }
 
-img#bitbucket {
+a#bitbucket {
 	background: url("../images/logos/bitbucket_grayscale.png");
 }
 
-img#bitbucket:hover, img#bitbucket:active {
+a#bitbucket:hover, a#bitbucket:active {
 	background: url("../images/logos/bitbucket.png");
 }
 
-img#linkedin {
+a#linkedin {
 	background: url("../images/logos/linkedin_grayscale.png");
 }
 
-img#linkedin:hover, img#linkedin:active {
+a#linkedin:hover, a#linkedin:active {
 	background: url("../images/logos/linkedin.png");
 }
 
-img#google_plus {
+a#google_plus {
 	background: url("../images/logos/google_plus_grayscale.png");
 }
 
-img#google_plus:hover, img#google_plus:active {
+a#google_plus:hover, a#google_plus:active {
 	background: url("../images/logos/google_plus.png");
 }
 
-img#mail {
+a#mail {
 	background: url("../images/logos/mail_grayscale.png");
 }
 
-img#mail:hover, img#mail:active {
+a#mail:hover, a#mail:active {
 	background: url("../images/logos/mail.png")
 }
 
-img#games {
+a#games {
 	background: url("../images/logos/joystick_grayscale.png")
 }
 
-img#games:hover, img#games:active {
+a#games:hover, a#games:active {
 	background: url("../images/logos/joystick.png")
 }
 

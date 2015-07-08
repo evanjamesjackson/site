@@ -15,6 +15,12 @@
 	to {opacity: 1.0; transform:translate(0px, 0px);}
 }
 
+/* Animation for fading in footer */
+@keyframes footer-fade-in {
+	from {opacity: 0.0; transform:translate(0, 10px);}
+	to {opacity: 1.0; transform:translate(0px, 0px);}
+}
+
 body {
 	background-image: url("../images/background.png");
 	background-repeat: repeat;
@@ -176,6 +182,8 @@ a#games:hover, a#games:active {
 }
 
 a#resume {
+	animation-name: footer-fade-in;
+	animation-duration: 1s;
 	color: #D6D6D6; /* off-white */
 }
 

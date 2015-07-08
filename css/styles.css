@@ -109,51 +109,51 @@ div#content a {
 }
 
 a#github {
-	background: url("../images/logos/github_grayscale.png");
+	background: url("../images/logos/logos_sprite.png") 0px -150px;
 }
 
 a#github:hover, a#github:active {
-	background: url("../images/logos/github.png");
+	background: url("../images/logos/logos_sprite.png") 0px 0px;
 }
 
 a#bitbucket {
-	background: url("../images/logos/bitbucket_grayscale.png");
+	background: url("../images/logos/logos_sprite.png") -150px -150px; 
 }
 
 a#bitbucket:hover, a#bitbucket:active {
-	background: url("../images/logos/bitbucket.png");
+	background: url("../images/logos/logos_sprite.png") -150px 0px;
 }
 
 a#linkedin {
-	background: url("../images/logos/linkedin_grayscale.png");
+	background: url("../images/logos/logos_sprite.png") -300px -150px;
 }
 
 a#linkedin:hover, a#linkedin:active {
-	background: url("../images/logos/linkedin.png");
+	background: url("../images/logos/logos_sprite.png") -300px 0px;
 }
 
 a#google_plus {
-	background: url("../images/logos/google_plus_grayscale.png");
+	background: url("../images/logos/logos_sprite.png") -450px -150px;
 }
 
 a#google_plus:hover, a#google_plus:active {
-	background: url("../images/logos/google_plus.png");
+	background: url("../images/logos/logos_sprite.png") -450px 0px;
 }
 
 a#mail {
-	background: url("../images/logos/mail_grayscale.png");
+	background: url("../images/logos/logos_sprite.png") -600px -150px;
 }
 
 a#mail:hover, a#mail:active {
-	background: url("../images/logos/mail.png")
+	background: url("../images/logos/logos_sprite.png") -600px 0px;
 }
 
 a#games {
-	background: url("../images/logos/joystick_grayscale.png")
+	background: url("../images/logos/logos_sprite.png") -750px -150px;
 }
 
 a#games:hover, a#games:active {
-	background: url("../images/logos/joystick.png")
+	background: url("../images/logos/logos_sprite.png") -750px 0px;
 }
 
 /*Don't forget an email link and a link to resume */
